@@ -1,6 +1,6 @@
 
-let homeScore= 21
-let guestScore= 40
+let homeScore= 0
+let guestScore= 0
 homePoints= document.querySelector(".home-points")
 
 guestPoints= document.querySelector(".guest-points")
