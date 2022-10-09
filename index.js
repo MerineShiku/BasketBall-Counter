@@ -81,7 +81,7 @@ function reset(){
   //conditions for banner to show
    //banner  visible
 
- if (6 < 4) {
+ if (homeScore<GuestScore) {
     winnerBanner.style.display="block";
    
     winnerBanner.innerText="Guest Team is Winning";
@@ -90,7 +90,7 @@ function reset(){
 
 
 
- }else if(4>6){
+ }else if(HomeScore>GuestScore){
 
     console.log("homeTeam winning");
 
