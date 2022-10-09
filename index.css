@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+  
+ 
+
+.container {
+
+  
+    background:  #1B244A;;
+    width: 80%;
+   height: 80vh;
+    margin: 40px auto;
+   
+
+}
+
+
+.hero {
+
+  
+   
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+h3, h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#winner-banner{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+    
+
+}
+
+
+#timer-display{
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400px;
+    color:#F94F6D;
+    font-size: 40px;
+    text-align: center;
+    background: black;
+    border: 4px solid rgba(0, 0, 0, 0.25);
+    padding: 5px 40px;
+   
+}
+
+   
+
+
+#time-el{
+    font-family: CursedTimer;
+    font-weight:400px;
+    color:#F94F6D;
+    font-size: 90px;
+    text-align: center;
+    background: black;
+    border: 4px solid rgba(0, 0, 0, 0.25);
+    padding: 20px 40px;
+   
+    justify-items: center;
+    flex-direction: row;
+    width: 15%;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+
+}
+
+
+.timer-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.addpoints{
+    
+    background:rgba(0, 0, 0, 0.25);
+   border: 2px solid lightblue;
+   
+   margin: 4px;
+   color: white; 
+   font: bold;
+   padding: 20px 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+}
+
+
+.home-addpoints{
+    
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+
+
+.guest-addpoints{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+   align-items: flex-end;
+  
+}
+
+.addpoints-container{
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.reset-btn{
+   
+    background:  #1B244A;
+    color: white; 
+    font-weight: bold;
+    padding: 30px 50px;
+    margin: 40px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid  lightblue;
+    border-radius: 6px;
+
+}
+
+
+
