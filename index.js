@@ -16,8 +16,7 @@ function add1point(){
 
     homePoints.textContent = homeScore   
 
-    //toggle banner
-    var displaySetting = myClock.style.display;
+   
 
 
 }
